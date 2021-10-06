@@ -27,9 +27,10 @@ class Form extends Component {
     };
 
     filterContacts = (value) => {
+        const formatedValue = value.toLowerCase()
         return this.state.contacts.filter(
             (contact) =>
-                contact.name.includes(value) || contact.email.includes(value)
+                contact.name.toLowerCase().includes(formatedValue) || contact.email.toLowerCase().includes(formatedValue)
         );
     };
 
