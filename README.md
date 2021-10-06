@@ -1,8 +1,3 @@
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ## Deel test
 
 Steps to run the project locally:
